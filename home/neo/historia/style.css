@@ -1,0 +1,31 @@
+#tab{
+	margin-right:auto;
+margin-left:auto; 
+position:relative
+}
+
+#menuzin {
+	position: absolute;
+	left: 248px;
+	top: 24px;
+	width: 98px;
+	height: 33px;
+	z-index: 1;
+}
+#texto {
+	position: absolute;
+	left: 87px;
+	top: 145px;
+	width: 921px;
+	height: 565px;
+	z-index: 1;
+}
+
+#home {
+	position: absolute;
+	left: 86px;
+	top: 718px;
+	width: 48px;
+	height: 45px;
+	z-index: 2;
+}

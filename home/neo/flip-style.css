@@ -1,0 +1,75 @@
+.flip-container1 { perspective: 1000; }  	
+.flip-container1:hover .flipper, .flip-container1.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}    
+.flipper {  	
+  transition: 0.6s;  	
+  transform-style: preserve-3d;    	
+  position: relative;  
+}
+ 
+.flip-container1, .front1, .back1 {  	
+  width: 199px;  	
+  height: 234px;  
+}
+.front1, .back1 {  	
+  backface-visibility: hidden;    	
+  position: absolute;  	
+  top: 0;  	
+ left: 0;  
+}
+.front1 { 
+z-index: 2; 
+}    
+.back1 { 
+overflow:auto;
+transform: rotateY(180deg); 
+}
+
+
+.flip-container2 { perspective: 1000; }  	
+.flip-container2:hover .flipper, .flip-container2.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}    
+
+.flip-container2, .front2, .back2 {  	
+  width: 204px;  	
+  height: 147px;  
+}
+.front2, .back2 {  	
+  backface-visibility: hidden;    	
+  position: absolute;  	
+  top: 0;  	
+ left: 0;  
+}
+.front2 { 
+z-index: 2; 
+}    
+.back2 { 
+overflow:auto;
+transform: rotateY(180deg); 
+}
+
+.flip-container3 { perspective: 1000; }  	
+.flip-container3:hover .flipper, .flip-container3.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}    
+
+.flip-container3, .front3, .back3 {  	
+  width: 190px;  	
+  height: 137px;  
+}
+.front3, .back3 {  	
+  backface-visibility: hidden;    	
+  position: absolute;  	
+  top: 0;  	
+ left: 0;  
+}
+.front3 { 
+z-index: 2; 
+}    
+.back3 { 
+overflow:auto;
+transform: rotateY(180deg); 
+}
+

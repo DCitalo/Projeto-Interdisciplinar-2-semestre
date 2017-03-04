@@ -1,0 +1,202 @@
+<style>
+.modalDialog {
+position: fixed;
+font-family: Arial, Helvetica, sans-serif;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin-right:auto;
+margin-left:auto;
+background: rgba(0,0,0,0.5);
+z-index: 99999;
+opacity:0;
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+pointer-events: none;
+overflow:scroll; /* activa scroll da página se a modal for muito comprida */
+}
+ 
+ .modalDialog:target {
+opacity:1;
+pointer-events: auto;
+}
+ 
+.modalDialog > div {
+width: auto;
+position: relative;
+margin: 5% auto;
+padding: 5px 20px 13px 20px;
+border-radius: 10px;
+
+background: #fff;
+background: -moz-linear-gradient(#fff, #999);
+background: -webkit-linear-gradient(#fff, #999);
+background: -o-linear-gradient(#fff, #999);
+ 
+-moz-box-shadow: 1px 1px 30px #000;
+-webkit-box-shadow: 1px 1px 30px #000;
+box-shadow: 1px 1px 30px #000;
+}
+ 
+ .close {
+background: #606061;
+color: #FFFFFF;
+
+
+
+
+text-decoration: none;
+font-weight: bold;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+-moz-box-shadow: 1px 1px 3px #000;
+-webkit-box-shadow: 1px 1px 3px #000;
+box-shadow: 1px 1px 3px #000;
+}
+ 
+.close:hover { background: #00d9ff; }
+ 
+.modalpic {
+float: left;
+padding: 6px;
+width: 300px;
+display: block;
+border: 4px solid #ffffff;
+border-radius: 30%;
+box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.3);
+margin-right: 100%;
+margin-bottom: 20px;
+}
+ 
+#tab1{
+	margin-right:auto;
+margin-left:auto;
+position:relative
+}
+
+#video1 {
+	position: absolute;
+	left: 49px;
+	top: 65px;
+	width: 844px;
+	height: 561px;
+	z-index: 1;
+}
+</style>
+<table id="Table_01" width="277" height="349" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="5">
+			<img src="images/obras_01.gif" width="276" height="2" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="2" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="3">
+			<img src="images/obras_02.gif" width="3" height="203" alt=""></td>
+		<td rowspan="2">
+			<a href="#abrirModal3"><img src="images/obras_03.gif" width="133" height="130" alt=""></a></td>
+		<td colspan="3">
+			<img src="images/obras_04.gif" width="140" height="103" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="103" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="5">
+			<img src="images/obras_05.gif" width="3" height="244" alt=""></td>
+		<td rowspan="3">
+			<a href="#abrirModal2"><img src="images/obras_06.gif" width="135" height="130" alt=""></a></td>
+		<td rowspan="5">
+			<img src="images/obras_07.gif" width="2" height="244" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="27" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/obras_08.gif" width="133" height="73" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="73" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">
+			<a href="#abrirModal4"><img src="images/obras_09.gif" width="136" height="130" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="30" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2">
+			<img src="images/obras_10.gif" width="135" height="114" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="100" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<img src="images/obras_11.gif" width="136" height="14" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="14" alt=""></td>
+	</tr>
+</table>
+<div id="abrirModal2" class="modalDialog"><table id="Tab1" width="920" height="629" border="0" cellpadding="0" cellspacing="0">
+	<tr><td colspan="3">
+			<img src="images/video_01.gif" width="920" height="6" alt=""></td>
+	</tr>
+	<tr><td rowspan="2">
+			<img src="images/video_02.gif" width="891" height="623" alt=""></td>
+		<td>
+			<a class="close" title="Fechar" href="#close"><img src="images/video_03.gif" width="23" height="19" alt=""></a></td>
+		<td rowspan="2">
+			<img src="images/video_04.gif" width="6" height="623" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/video_05.gif" width="23" height="604" alt=""></td>
+	</tr>
+    <td><div id="video1"><iframe width="825" height="520" src="https://www.youtube.com/embed/TuPrxhR1vKY" frameborder="0" allowfullscreen></iframe></div></td>
+</table> </div>
+ 
+		                                         
+ 
+<div id="abrirModal3" class="modalDialog"><table id="Tab1" width="920" height="629" border="0" cellpadding="0" cellspacing="0">
+	<tr><td colspan="3">
+			<img src="images/video_01.gif" width="920" height="6" alt=""></td>
+	</tr>
+	<tr><td rowspan="2">
+			<img src="images/video_02.gif" width="891" height="623" alt=""></td>
+		<td>
+			<a class="close" title="Fechar" href="#close"><img src="images/video_03.gif" width="23" height="19" alt=""></a></td>
+		<td rowspan="2">
+			<img src="images/video_04.gif" width="6" height="623" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/video_05.gif" width="23" height="604" alt=""></td>
+	</tr>
+    <td><div id="video1"><iframe width="825" height="520" src="https://www.youtube.com/embed/CTf0yE15zzI" frameborder="0" allowfullscreen></iframe></div></td>
+</table> </div>
+ 
+		                                         
+ 
+<div id="abrirModal4" class="modalDialog"><table id="Tab1" width="920" height="629" border="0" cellpadding="0" cellspacing="0">
+	<tr><td colspan="3">
+			<img src="images/video_01.gif" width="920" height="6" alt=""></td>
+	</tr>
+	<tr><td rowspan="2">
+			<img src="images/video_02.gif" width="891" height="623" alt=""></td>
+		<td>
+			<a class="close" title="Fechar" href="#close"><img src="images/video_03.gif" width="23" height="19" alt=""></a></td>
+		<td rowspan="2">
+			<img src="images/video_04.gif" width="6" height="623" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/video_05.gif" width="23" height="604" alt=""></td>
+	</tr>
+    <td><div id="video1"><iframe width="825" height="520" src="https://www.youtube.com/embed/XJq3jItducg" frameborder="0" allowfullscreen></iframe></div></td>
+</table> </div>
+ 
+		                                         
+ 

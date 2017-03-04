@@ -1,0 +1,14 @@
+#tab{
+	margin-right:auto;
+margin-left:auto; 
+position:relative
+}
+
+#menuzin {
+	position: absolute;
+	left: 248px;
+	top: 24px;
+	width: 98px;
+	height: 33px;
+	z-index: 1;
+}

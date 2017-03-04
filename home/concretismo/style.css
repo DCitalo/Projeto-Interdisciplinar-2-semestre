@@ -1,0 +1,22 @@
+#tab{
+	margin-right:auto;
+margin-left:auto; 
+position:relative
+}
+
+#menuzin {
+	position: absolute;
+	left: 671px;
+	top: 10px;
+	width: 98px;
+	height: 33px;
+	z-index: 999;
+}
+#homealt {
+	position: absolute;
+	left: 20px;
+	top: 716px;
+	width: 574px;
+	height: 28px;
+	z-index: 8;
+}

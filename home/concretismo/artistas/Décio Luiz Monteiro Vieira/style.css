@@ -1,0 +1,62 @@
+#homealt {
+	position: absolute;
+	left: 20px;
+	top: 716px;
+	width: 574px;
+	height: 28px;
+	z-index: 8;
+}
+#tab{
+	margin-right:auto;
+margin-left:auto; 
+position:relative;
+}
+#texto {
+	position: absolute;
+	left: 44px;
+	top: 117px;
+	width: 485px;
+	height: 523px;
+	z-index: 1;
+	overflow: auto;
+}
+
+#home {
+	position: absolute;
+	left: 882px;
+	top: 715px;
+	width: 50px;
+	height: 48px;
+	z-index: 3;
+}
+
+#menuzin {
+	position: absolute;
+	left: 671px;
+	top: 10px;
+	width: 98px;
+	height: 33px;
+	z-index: 100;
+}
+#imagem {
+	position:absolute;
+	left: 609px;
+	top: 477px;
+	width: 326px;
+	height: 227px;
+	z-index: 6;
+	overflow: auto;
+}
+#imagem table{
+	margin-right:auto;
+	margin-left:auto;
+	position:inherit;
+}
+#procura {
+	position: absolute;
+	left: 801px;
+	top: 23px;
+	width: 217px;
+	height: 23px;
+	z-index: 7;
+}

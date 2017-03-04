@@ -1,0 +1,329 @@
+@charset "utf-8";
+/* CSS Document */
+#apDiv1 {
+	position: absolute;
+	left: 736px;
+	top: 54px;
+	width: 206px;
+	height: 47px;
+	z-index: 2;
+}
+#apDiv2 {
+	position: absolute;
+	left: 427px;
+	top: 60px;
+	width: 304px;
+	height: 40px;
+	z-index: 3;
+}
+#moldura {
+	height: 720px;
+	width: 1200px;
+	position: relative;
+	background-color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	position: absolute;
+    margin-left: 0%;
+	margin-bottom: 0%;
+	left:70px;
+	top: 0px;
+}
+#ita {
+	background-image: url(imagens/exportandodo_03.png);
+	height: 138px;
+	width: 120px;
+	position: absolute;
+	left: 15px;
+	top: 0px;
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transition: opacity 0s cubic-bezier(x1,y1,x2,y2) 0s;
+	-moz-transition: opacity 0s cubic-bezier(x1,y1,x2,y2) 0s;
+	-ms-transition: opacity 0s cubic-bezier(x1,y1,x2,y2) 0s;
+	-o-transition: opacity 0s cubic-bezier(x1,y1,x2,y2) 0s;
+	transition: opacity 0s cubic-bezier(x1,y1,x2,y2) 0s;
+	z-index:999;
+}
+
+#pessoas {
+	position: absolute;
+	left: 61px;
+	top: 173px;
+	width: 1093px;
+	height: 138px;
+	z-index: 1;
+	background-repeat:no-repeat;
+}
+#ita:hover {
+	-webkit-opacity: 100;
+	-moz-opacity: 100;
+	opacity: 100;
+}
+#ita:active {
+	-webkit-opacity: 100;
+	-moz-opacity: 100;
+	opacity: 100;
+}
+#gab {
+	height: 131px;
+	width: 128px;
+	position: absolute;
+	top: 0px;
+	left: 329px;
+	background-repeat: no-repeat;
+	-webkit-transition: all cubic-bezier(x1,y1,x2,y2) 0s;
+	-moz-transition: all cubic-bezier(x1,y1,x2,y2) 0s;
+	-ms-transition: all cubic-bezier(x1,y1,x2,y2) 0s;
+	-o-transition: all cubic-bezier(x1,y1,x2,y2) 0s;
+	transition: all cubic-bezier(x1,y1,x2,y2) 0s;
+}
+#gab:hover {
+	background-image: url(imagens/exportandodo3_07.png);
+}
+#will {
+	background-image: url(imagens/exportandodo2_05.png);
+	height: 113px;
+	width: 113px;
+	position: absolute;
+	left: 176px;
+	top: 0px;
+	opacity: 0;
+	-webkit-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-moz-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-ms-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-o-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+}
+#will:hover {
+	-webkit-opacity: 100;
+	-moz-opacity: 100;
+	opacity: 100;
+}
+#briel {
+	background-image: url(imagens/images/exportandodo4_09.png);
+	height: 136px;
+	width: 113px;
+	position: absolute;
+	left: 486px;
+	top: 0px;
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-moz-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-ms-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-o-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+}
+#briel:hover {
+	-webkit-opacity: 100;
+	-moz-opacity: 100;
+	opacity: 100;
+}
+#jonas {
+	background-image: url(imagens/images/exportandodo5_11.png);
+	height: 137px;
+	width: 113px;
+	position: absolute;
+	left: 650px;
+	top: 0px;
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-moz-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-ms-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-o-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+}
+#jonas:hover {
+	-webkit-opacity: 100;
+	-moz-opacity: 100;
+	opacity: 100;
+}
+#larissa {
+	background-image: url(imagens/images/exportandodo6_13.png);
+	height: 133px;
+	width: 113px;
+	position: absolute;
+	left: 810px;
+	top: 0px;
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-moz-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-ms-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-o-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+}
+#larissa:hover {
+	-webkit-opacity: 100;
+	-moz-opacity: 100;
+	opacity: 100;
+}
+#natalia {
+	background-image: url(imagens/images/exportandodo7_15.png);
+	background-repeat: no-repeat;
+	height: 113px;
+	width: 113px;
+	position: absolute;
+	left: 967px;
+	top: 0px;
+	opacity: 0;
+	-webkit-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-moz-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-ms-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	-o-transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+	transition: all 1s cubic-bezier(x1,y1,x2,y2) 0s;
+}
+
+#natalia:hover {
+	-webkit-opacity: 100;
+	-moz-opacity: 100;
+	opacity: 100;
+}
+#infoitalo {
+	height: 345px;
+	width: 965px;
+	position: absolute;
+	z-index: 1;
+	top: 344px;
+	background-color: rgba(255,255,255,0.0);
+	left: 123px;
+	opacity: 0;
+	-webkit-transition: all 400ms ease-in 0s;
+	-moz-transition: all 400ms ease-in 0s;
+	-ms-transition: all 400ms ease-in 0s;
+	-o-transition: all 400ms ease-in 0s;
+	transition: all 400ms ease-in 0s;
+}
+
+#infoitalo:target {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+#infowilliam {
+	height: 345px;
+	width: 965px;
+	position: absolute;
+	z-index: 1;
+	top: 344px;
+	background-color: rgba(255,255,255,0.0);
+	left: 123px;
+	opacity: 0;
+	-webkit-transition: all 400ms ease-in 0s;
+	-moz-transition: all 400ms ease-in 0s;
+	-ms-transition: all 400ms ease-in 0s;
+	-o-transition: all 400ms ease-in 0s;
+	transition: all 400ms ease-in 0s;
+}
+
+#infowilliam:target {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+#infogabriela {
+	height: 345px;
+	width: 965px;
+	position: absolute;
+	z-index: 1;
+	top: 344px;
+	background-color: rgba(255,255,255,0.0);
+	left: 123px;
+	opacity: 0;
+	-webkit-transition: all 400ms ease-in 0s;
+	-moz-transition: all 400ms ease-in 0s;
+	-ms-transition: all 400ms ease-in 0s;
+	-o-transition: all 400ms ease-in 0s;
+	transition: all 400ms ease-in 0s;
+}
+
+#infogabriela:target {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+#infogabriel {
+	height: 345px;
+	width: 965px;
+	position: absolute;
+	z-index: 1;
+	top: 344px;
+	background-color: rgba(255,255,255,0.0);
+	left: 123px;
+	opacity: 0;
+	-webkit-transition: all 400ms ease-in 0s;
+	-moz-transition: all 400ms ease-in 0s;
+	-ms-transition: all 400ms ease-in 0s;
+	-o-transition: all 400ms ease-in 0s;
+	transition: all 400ms ease-in 0s;
+}
+
+#infogabriel:target {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+#infojonas {
+	height: 345px;
+	width: 965px;
+	position: absolute;
+	z-index: 1;
+	top: 344px;
+	background-color: rgba(255,255,255,0.0);
+	left: 123px;
+	opacity: 0;
+	-webkit-transition: all 400ms ease-in 0s;
+	-moz-transition: all 400ms ease-in 0s;
+	-ms-transition: all 400ms ease-in 0s;
+	-o-transition: all 400ms ease-in 0s;
+	transition: all 400ms ease-in 0s;
+}
+
+#infojonas:target {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+#infolarissa {
+	height: 345px;
+	width: 965px;
+	position: absolute;
+	z-index: 1;
+	top: 344px;
+	background-color: rgba(255,255,255,0.0);
+	left: 123px;
+	opacity: 0;
+	-webkit-transition: all 400ms ease-in 0s;
+	-moz-transition: all 400ms ease-in 0s;
+	-ms-transition: all 400ms ease-in 0s;
+	-o-transition: all 400ms ease-in 0s;
+	transition: all 400ms ease-in 0s;
+}
+
+#infolarissa:target {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}#infonatalia {
+	height: 345px;
+	width: 965px;
+	position: absolute;
+	z-index: 1;
+	top: 344px;
+	background-color: rgba(255,255,255,0.0);
+	left: 123px;
+	opacity: 0;
+	-webkit-transition: all 400ms ease-in 0s;
+	-moz-transition: all 400ms ease-in 0s;
+	-ms-transition: all 400ms ease-in 0s;
+	-o-transition: all 400ms ease-in 0s;
+	transition: all 400ms ease-in 0s;
+}
+
+#infonatalia:target {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}

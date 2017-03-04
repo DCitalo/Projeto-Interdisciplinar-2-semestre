@@ -1,0 +1,162 @@
+.flip-container1 { perspective: 1000; }  	
+.flip-container1:hover .flipper, .flip-container1.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}    
+.flipper {  	
+  transition: 0.6s;  	
+  transform-style: preserve-3d;    	
+  position: relative;  
+}
+ 
+.flip-container1, .front1, .back1 {  	
+  width: 228px;  	
+  height: 143px;  
+}
+.front1, .back1 {  	
+  backface-visibility: hidden;       	
+  position: absolute;  	
+  top: 0;  	
+ left: 0;  
+}
+.front1 { 
+z-index: 2; 
+}    
+.back1 { 
+overflow:auto;
+transform: rotateY(180deg); 
+background-color:#1C489A;
+text-align:center;
+}
+
+
+.flip-container2 { perspective: 1000; }  	
+.flip-container2:hover .flipper, .flip-container2.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}    
+
+.flip-container2, .front2, .back2 {  	
+  width: 231px;  	
+  height: 143px;  
+}
+.front2, .back2 {  	
+  backface-visibility: hidden;    	
+  position: absolute;  	
+  top: 0;  	
+ left: 0;  
+}
+.front2 { 
+z-index: 2; 
+}    
+.back2 { 
+overflow:auto;
+transform: rotateY(180deg); 
+background-color:#CE2432;
+text-align:center;
+}
+
+.flip-container3 { perspective: 1000; }  	
+.flip-container3:hover .flipper, .flip-container3.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}    
+
+.flip-container3, .front3, .back3 {  	
+  width: 151px;  	
+  height: 118px;  
+}
+.front3, .back3 {  	
+  backface-visibility: hidden;    	
+  position: absolute;  	
+  top: 0;  	
+ left: 0;  
+}
+.front3 { 
+z-index: 2; 
+}    
+.back3 { 
+overflow:auto;
+transform: rotateY(180deg); 
+background-color:#ED4C23;
+text-align:center;
+}
+
+.flip-container4 { perspective: 1000; }  	
+.flip-container4:hover .flipper, .flip-container4.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}    
+
+.flip-container4, .front4, .back4 {  	
+  width: 163px;  	
+  height: 117px;  
+}
+.front4, .back4 {  	
+  backface-visibility: hidden;    	
+  position: absolute;  	
+  top: 0;  	
+ left: 0;  
+}
+.front4 { 
+z-index: 2; 
+}    
+.back4 { 
+overflow:auto;
+transform: rotateY(180deg); 
+background-color:#CE2432;
+text-align:center;
+}
+
+.flip-container5 { perspective: 1000; }  	
+.flip-container5:hover .flipper, .flip-container5.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}    
+
+.flip-container5, .front5, .back5 {  	
+  width: 271px;  	
+  height: 114px;  
+}
+.front5, .back5 {  	
+  backface-visibility: hidden;    	
+  position: absolute;  	
+  top: 0;  	
+ left: 0;  
+}
+.front5 { 
+z-index: 2; 
+}    
+.back5 { 
+overflow:auto;
+transform: rotateY(180deg); 
+background-color:#1C489A;
+text-align:center;
+}
+
+.flip-container6 { perspective: 1000; }  	
+.flip-container6:hover .flipper, .flip-container6.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}    
+
+.flip-container6, .front6, .back6 {  	
+  width: 212px;  	
+  height: 121px;  
+}
+.front6, .back6 {  	
+  backface-visibility: hidden;    	
+  position: absolute;  	
+  top: 0;  	
+ left: 0;  
+}
+.front6 { 
+z-index: 2; 
+}    
+.back6 { 
+overflow:auto;
+transform: rotateY(180deg);
+background-color:#CE2432;
+text-align:center;
+}
+.centro{
+	position:absolute;
+	
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	}

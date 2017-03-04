@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script language="javascript">
+function delay (URL) {
+    setTimeout( function() { window.location = "../home/concretismo/Untitled-1.html" }, 400 );
+}
+function delay2 (URL) {
+    setTimeout( function() { window.location = "../home/neo/Untitled-1.html" }, 400 );
+}
+</script>
+<style type="text/css">
+
+a { 
+color: #333; 
+}
+.apDiv1 { 
+transition: all 0.5s ease; 
+}
+a:hover .apDiv1 { 
+transform: translateX(-50px);
+}
+a:focus .apDiv1 { 
+transform: translateX(-512px);
+}
+.apDiv2 { 
+transition: all 0.5s ease; 
+}
+a:hover .apDiv2 { 
+transform: translateX(50px); 
+}
+a:focus .apDiv2 { 
+transform: translateX(512px); 
+}
+
+#tudo{
+	margin-right:auto;
+margin-left:auto;
+position:relative;
+	}
+#apDiv1 {
+	position: absolute;
+	width: 512px;
+	height: 767px;
+	z-index: 3;
+	left: 0px;
+	top: 0px;
+	
+}
+#apDiv2 {
+	position: absolute;
+	width: 511px;
+	height: 769px;
+	z-index: 3;
+	left: 514px;
+	top: 0px;
+}
+#apDiv3 {
+	position: absolute;
+	width: 100px;
+	height: 115px;
+	z-index: 2;
+	left: 463px;
+	top: 0px;
+}
+#apDiv4 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 1;
+	top: 0px;
+}
+#apDiv5 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 1;
+	left: 514px;
+	top: 0px;
+}
+</style>
+</head>
+
+<body>
+
+
+<table id="tudo" width="1024" height="768" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+        <div id="apDiv5"><img src="fundoneo.gif" width="513" height="769" /></div>
+        <div id="apDiv4"><img src="fundocon.gif" width="514" height="769" /></div>
+ <a href="javascript:delay('URL')"><div id="apDiv1"><img class="apDiv1" src="Untitled-1_01.gif" width="512" height="768"></div></a>
+ <a href="javascript:delay2('URL')"><div id="apDiv2"><img class="apDiv2" src="Untitled-1_02.gif" width="512" height="768"></div></a>
+ <div id="apDiv3"><img src="meio.gif" width="100" height="768" /></div>
+</td>
+	</tr>
+</table>
+</div>
+
+</body>
+</html>
